@@ -1,10 +1,7 @@
-const Square = () => {
+const Square = ({value, handleClick}) => {
+
     return (
-        <div className='game-board_three-squares'>
-            <li className='game-board_square'></li>     
-            <li className='game-board_square'></li>     
-            <li className='game-board_square'></li>     
-        </div>
+        <button className='game-board_square' onClick={handleClick}>{value}</button>
     )
 }
 
