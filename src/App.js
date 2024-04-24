@@ -1,23 +1,12 @@
 import './App.scss';
+import Square from './Square/Square';
 
 function App() {
   return (
   <section className='game-board'>
-    <div className='game-board_three-squares'>
-      <li className='game-board_square'></li>     
-      <li className='game-board_square'></li>     
-      <li className='game-board_square'></li>     
-    </div>
-    <div className='game-board_three-squares'>
-      <li className='game-board_square'></li>     
-      <li className='game-board_square'></li>     
-      <li className='game-board_square'></li>     
-    </div>
-    <div className='game-board_three-squares'>
-      <li className='game-board_square'></li>     
-      <li className='game-board_square'></li>     
-      <li className='game-board_square'></li>     
-    </div>
+    <Square />
+    <Square />
+    <Square />
   </section>
   );
 }
