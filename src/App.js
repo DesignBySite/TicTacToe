@@ -1,8 +1,24 @@
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-   <div>Hello there</div>
+  <section className='game-board'>
+    <div className='game-board_three-squares'>
+      <li className='game-board_square'></li>     
+      <li className='game-board_square'></li>     
+      <li className='game-board_square'></li>     
+    </div>
+    <div className='game-board_three-squares'>
+      <li className='game-board_square'></li>     
+      <li className='game-board_square'></li>     
+      <li className='game-board_square'></li>     
+    </div>
+    <div className='game-board_three-squares'>
+      <li className='game-board_square'></li>     
+      <li className='game-board_square'></li>     
+      <li className='game-board_square'></li>     
+    </div>
+  </section>
   );
 }
 
